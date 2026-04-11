@@ -16,6 +16,11 @@ section {
 
 .project {
   margin: 40px 0;
+   transition: 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
 }
 
 a {
